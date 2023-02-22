@@ -37,6 +37,7 @@ if __name__ == "__main__":
 
     gui.title("simple calculator")
     gui.geometry("270x150")
+    gui.resizable(0,0)
 
     equation = StringVar()
     #create the text entry box for showing the expression.
